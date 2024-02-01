@@ -9,7 +9,7 @@ incurred by unnamed competitors.
 
 ## Running the Program
 
-1Download Java 17 (Long Term Support) on your computer if you haven't already.
+1. Download Java 17 (Long Term Support) on your computer if you haven't already.
 ```
 MacOS Download: https://www.oracle.com/java/technologies/downloads/#jdk17-mac
 Linux Download: https://www.oracle.com/java/technologies/downloads/#jdk17-linux
