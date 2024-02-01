@@ -1,4 +1,10 @@
 """
+@author abbybrown
+@file main.py
+@date 01/28/24
+
+    This file opens an HTML web page that contains math review problems for a user to
+    read and understand free of charge.
 
 Sources:
 https://flask.palletsprojects.com/en/3.0.x/quickstart/#a-minimal-application

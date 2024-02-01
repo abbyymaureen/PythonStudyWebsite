@@ -20,6 +20,7 @@ a:hover {
     text-decoration: none;
 }
 
+/* Adding padding to the math things */
 .math, h1, h2 {
     padding-left: 3rem;
 }
