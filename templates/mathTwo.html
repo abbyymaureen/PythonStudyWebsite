@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brown Academy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="nofollow" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+        src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+</head>
+<body>
+<header>
+    <div class="nav justify-content-center">
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid ">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="navbar-brand" href="{{ url_for('index') }}">Brown Academy</a>
+      </div>
+    </div>
+    </div>
+    </nav>
+    </div>
+</header>
+<p class="math">
+  The reduced row echelon form of a system of linear equations in
+  $x$ and $y$ or in $x$, $y$ and $z$ is given. For each system, determine whether it has a unique solution
+  (in this case, find the solution), infinitely many solutions, or no solutions.
+</p>
+<p class="math">
+    $
+
+    \left[  \begin{array}{cc}
+      1 & 0  \\
+      0 & 1   \\
+      0 & 0
+    \end{array} \right| \left. \begin{array}{c}
+    0 \\ 0 \\ 0 \end{array} \right]
+
+    $
+</p>
+<h2>This has a unique solution: $x=0, y=0$</h2>
+</body>
+</html>
